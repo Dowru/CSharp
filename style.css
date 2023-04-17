@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Img/prueba.png);
+}
+
+nav{
+    display: flex;
+}
+
+h1{
+    color: #000;
+    margin-left: 520px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.imagen{
+    width: 48%;
+    background: #4141419f;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 250px;  
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+.pdf{
+    width: 48%;
+    background: #4141419f;
+    margin-top: 25px;
+    margin-right: 10px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: right;
+    border-radius: 5px;
+}
+
+.video{
+    width: 48%;
+    background: #4141419f;
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.audio{
+    width: 48%;
+    background: #4141419f;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: right;
+    border-radius: 5px;
+}
+
+h2{
+    margin-left: 250px;
+    font-family: cursive;
+}
+
+img{
+    width: 565px;
+    height: 205px;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+}
+
+audio{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+object{
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+video{
+    width: 365px;
+    margin-left: 100px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
