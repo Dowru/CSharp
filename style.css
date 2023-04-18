@@ -9,34 +9,44 @@ body{
 
 nav{
     display: flex;
+    justify-content: center;
+    background-color: #b9b9b9a9;
 }
 
 h1{
+    width: 1200px;
+    height: 50px;
     color: #000;
-    margin-left: 520px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
     font-weight: bold;
     font-size: 30px;
     font-family: cursive;
+    background-color: #414141c3;
+    border: dotted #101010;
+    border-radius: 50px;
+
 }
 
 .imagen{
-    width: 48%;
-    background: #4141419f;
+    width: 48.6%;
+    background: #b9b9b9a9;
     margin-top: 25px;
     margin-left: 10px;
-    height: 250px;  
+    height: 350px;  
     border-width: 1px;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
 }
 .pdf{
-    width: 48%;
-    background: #4141419f;
+    width: 48.6%;
+    background: #b9b9b9a9;
     margin-top: 25px;
     margin-right: 10px;
-    height: 250px;
+    height: 350px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -45,11 +55,11 @@ h1{
 }
 
 .video{
-    width: 48%;
-    background: #4141419f;
+    width: 48.6%;
+    background: #b9b9b9a9;
     margin-top: 15px;
     margin-left: 10px;
-    height: 250px;
+    height: 350px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -57,11 +67,11 @@ h1{
 }
 
 .audio{
-    width: 48%;
-    background: #4141419f;
+    width: 48.6%;
+    background: #b9b9b9a9;
     margin-top: 15px;
     margin-right: 10px;
-    height: 250px;
+    height: 350px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -70,13 +80,16 @@ h1{
 }
 
 h2{
-    margin-left: 250px;
     font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 img{
     width: 565px;
-    height: 205px;
+    height: 300px;
     margin-top: 5px;
     margin-left: 15px;
     border-radius: 10px;
@@ -85,21 +98,112 @@ img{
 
 audio{
     width: 500px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 47px;
+    margin-top: 40px;
 }
 
 object{
-    width: 500px;
-    height: 200px;
-    margin-left: 50px;
+    width: 1100px;
+    height: 590px;
+    margin-left: 45px;
     margin-top: 10px;
     border-radius: 10px;
+    zoom: 50%;
 }
 
 video{
-    width: 365px;
-    margin-left: 100px;
+    width: 530px;
+    margin-left: 33px;
     margin-top: 5px;
     border-radius: 10px;
+}
+
+.ol{
+    width: 48.6%;
+    height: 150px;
+    margin-top: 20px;
+    background-color: #b9b9b9a9;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.ul{
+    width: 48.6%;
+    height: 150px;
+    margin-top: 20px;
+    background-color: #b9b9b9a9;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+li{
+    margin-left: 40px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.pdp{
+    width: 100%;
+    background-color: #414141;
+    margin-top: 10px;
+}
+
+.pdp .g1{
+    background-color: #0B0B0D;
+    padding: 15px 10px;
+    text-align: center;
+    color: #efefef;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.lista{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+hr{
+    border: solid;
+}
+
+.links{
+    width: 98%;
+    background: #b9b9b9a9;
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 500px;
+    height: 300px;
+    margin-top: 2px;
+}
+
+.derecha{
+    float: right;
+    text-decoration: none;
+    color: #000;
+    margin-right: 40px;
+    margin-top: 120px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derecha:hover{
+    color: purple;
 }
