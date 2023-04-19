@@ -41,6 +41,9 @@ h1{
     border-style: solid;
     border-color: black;
     border-radius: 5px;
+    display: auto;
+    justify-content: center;
+    text-align: center;
 }
 .pdf{
     width: 48.6%;
@@ -53,6 +56,9 @@ h1{
     border-color: black;
     float: right;
     border-radius: 5px;
+    display: auto;
+    justify-content: center;
+    text-align: center;
 }
 
 .video{
@@ -65,6 +71,9 @@ h1{
     border-style: solid;
     border-color: black;
     border-radius: 5px;
+    display: auto;
+    justify-content: center;
+    text-align: center;
 }
 
 .audio{
@@ -78,6 +87,9 @@ h1{
     border-color: black;
     float: right;
     border-radius: 5px;
+    display: auto;
+    justify-content: center;
+    text-align: center;
 }
 
 h2{
@@ -93,21 +105,17 @@ img{
     height: 300px;
     object-fit: cover;
     margin-top: 5px;
-    margin-left: 15px;
     border-radius: 10px;
-
 }
 
 audio{
     width: 500px;
-    margin-left: 47px;
     margin-top: 40px;
 }
 
 object{
     width: 1100px;
     height: 590px;
-    margin-left: 45px;
     margin-top: 10px;
     border-radius: 10px;
     zoom: 50%;
@@ -115,7 +123,6 @@ object{
 
 video{
     width: 530px;
-    margin-left: 33px;
     margin-top: 5px;
     border-radius: 10px;
 }
